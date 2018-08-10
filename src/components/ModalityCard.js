@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Card, Icon} from 'semantic-ui-react';
+import {Card, Icon} from 'semantic-ui-react/dist/commonjs';
 import '../css/modalityCard.css';
 
 export default class ModalityCard extends Component{

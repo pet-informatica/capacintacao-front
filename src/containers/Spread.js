@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import {Button} from 'semantic-ui-react';
-import Section from './../components/Section';
-import Navbar from './../components/Navbar';
-import TopBanner from './../components/TopBanner';
+import {Button} from 'semantic-ui-react/dist/commonjs';
+import Section from '../components/Section';
+import Navbar from '../components/Navbar';
+import TopBanner from '../components/TopBanner';
 
 export default class Spread extends Component {
 	render(){

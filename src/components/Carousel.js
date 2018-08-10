@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Image, Button, Container} from 'semantic-ui-react';
+import {Image, Button, Container} from 'semantic-ui-react/dist/commonjs';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../css/carousel.css';

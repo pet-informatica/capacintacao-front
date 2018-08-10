@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Segment} from 'semantic-ui-react';
+import {Segment} from 'semantic-ui-react/dist/commonjs';
 
 export default class Footer extends Component{
 	render(){

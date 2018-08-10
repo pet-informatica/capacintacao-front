@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, Button} from 'semantic-ui-react';
+import {Card, Button} from 'semantic-ui-react/dist/commonjs';
 import '../css/oldExams.css';
 
 export default class Practice extends Component {

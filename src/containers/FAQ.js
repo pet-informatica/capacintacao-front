@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import Section from './../components/Section';
-import Accordion from './../components/AccordionCustom';
-import Navbar from './../components/Navbar';
-import TopBanner from './../components/TopBanner';
+import Section from '../components/Section';
+import Accordion from '../components/AccordionCustom';
+import Navbar from '../components/Navbar';
+import TopBanner from '../components/TopBanner';
 import { HashLink as Link } from 'react-router-hash-link';
 
 export default class FAQ extends Component{

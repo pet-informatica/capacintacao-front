@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import Section from './../components/Section';
-import Navbar from './../components/Navbar';
-import TopBanner from './../components/TopBanner';
+import Section from '../components/Section';
+import Navbar from '../components/Navbar';
+import TopBanner from '../components/TopBanner';
 import { HashLink as Link } from 'react-router-hash-link';
 
-export default class Notice extends Component {
+export default class Booklet extends Component {
 	render(){
 		return(
 			<Navbar>

@@ -9,7 +9,7 @@ import {
   Responsive,
   Dropdown,
   Segment,
-} from "semantic-ui-react";
+} from "semantic-ui-react/dist/commonjs";
 
 import { HashLink as Link } from 'react-router-hash-link';
 

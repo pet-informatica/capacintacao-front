@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import {Card, Image, Icon} from 'semantic-ui-react';
-import CalendarFeed from './../components/CalendarFeed';
-import Carousel from './../components/Carousel';
-import Section from './../components/Section';
-import ModalityFeed from './../components/ModalityFeed';
+import {Card, Image, Icon} from 'semantic-ui-react/dist/commonjs';
+import CalendarFeed from '../components/CalendarFeed';
+import Carousel from '../components/Carousel';
+import Section from '../components/Section';
+import ModalityFeed from '../components/ModalityFeed';
 import { Parallax } from 'react-parallax';
-import Navbar from './../components/Navbar';
+import Navbar from '../components/Navbar';
 
 export default class Home extends Component{
     render(){

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {Card} from 'semantic-ui-react';
-import ModalityCard from './../components/ModalityCard';
+import {Card} from 'semantic-ui-react/dist/commonjs';
+import ModalityCard from './ModalityCard';
 import "../css/modalityFeed.css";
 
 export default class ModalityFeed extends Component{

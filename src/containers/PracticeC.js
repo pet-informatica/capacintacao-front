@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import {Button} from 'semantic-ui-react';
-import Section from './../components/Section';
-import OldExams from './../components/OldExams';
-import Navbar from './../components/Navbar';
-import TopBanner from './../components/TopBanner';
-import VideoMenu from './../components/VideoMenu';
-import GenericMenu from './../components/GenericMenu';
+import {Button} from 'semantic-ui-react/dist/commonjs';
+import Section from '../components/Section';
+import OldExams from '../components/OldExams';
+import Navbar from '../components/Navbar';
+import TopBanner from '../components/TopBanner';
+import VideoMenu from '../components/VideoMenu';
+import GenericMenu from '../components/GenericMenu';
 import '../css/practice.css';
 
 export default class PracticeC extends Component {

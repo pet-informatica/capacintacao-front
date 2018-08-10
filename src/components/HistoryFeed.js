@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import TimelineCard from './TimelineCard';
-import {Grid, Icon} from 'semantic-ui-react';
+import {Grid, Icon} from 'semantic-ui-react/dist/commonjs';
 
 export default class HistoryFeed extends Component{
     render(){

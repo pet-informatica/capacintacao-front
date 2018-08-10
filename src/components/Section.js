@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Header, Icon} from 'semantic-ui-react';
+import {Container, Header, Icon} from 'semantic-ui-react/dist/commonjs';
 import '../css/section.css';
 
 export default class Section extends Component{

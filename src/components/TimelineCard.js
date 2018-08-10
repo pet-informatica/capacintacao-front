@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card} from 'semantic-ui-react';
+import {Card} from 'semantic-ui-react/dist/commonjs';
 
 export default class TimelineCard extends Component{
     render(){

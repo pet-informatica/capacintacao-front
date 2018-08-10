@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Accordion } from 'semantic-ui-react'
+import { Accordion } from 'semantic-ui-react/dist/commonjs'
 
 export default class AccordionCustom extends Component {
   state = { activeIndex: 0 }

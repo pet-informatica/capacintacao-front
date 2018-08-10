@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
-import {Embed} from 'semantic-ui-react';
-import HistoryFeed from './../components/HistoryFeed';
-import Section from './../components/Section';
-import Navbar from './../components/Navbar';
-import TopBanner from './../components/TopBanner';
+import {Embed} from 'semantic-ui-react/dist/commonjs';
+import HistoryFeed from '../components/HistoryFeed';
+import Section from '../components/Section';
+import Navbar from '../components/Navbar';
+import TopBanner from '../components/TopBanner';
 
-export default class About extends Component{
+export default class Summary extends Component{
 	render(){
 		return(
 			<Navbar>
 				<div className="index-page">
 					<TopBanner/>
 					<div className="index-anchor" id="sobre"/>
-					<Section title="SOBRE">
+					<Section title="Word">
 						<p className="index-sectionText">A Olimpíada Pernambucana de Informática (OPEI) é uma competição para os estudantes de Ensinos Fundamental e Médio das instituições públicas e privadas de todo o estado de Pernambuco. Ela possui modalidades de programação práticas, onde os alunos de Ensino Médio podem participar resolvendo questões de raciocínio algorítmico, com problemas similar aos de competições como a <a rel="noopener noreferrer" target="_blank" href="https://icpc.baylor.edu/">ACM/ICPC</a> e a <a rel="noopener noreferrer" target="_blank" href="https://olimpiada.ic.unicamp.br/">Olimpíada Brasileira de Informática (OBI)</a>, assim como modalidades teóricas, onde alunos dos Ensinos Fundamental e Médio sem nenhum conhecimento prévio na área de informática podem resolver desafios de lógica, raciocínio e matemática. A OPEI é uma iniciativa do <a rel="noopener noreferrer" target="_blank" href="https://pet-informatica.github.io/">PET-Informática</a>, e é uma olimpíada completamente organizada por alunos do curso de Ciência da Computação, em conjunto com a Universidade Federal de Pernambuco (UFPE) e empresas parceiras.</p>
 						<Embed id="7ubYlXGk7KY" source='youtube' placeholder="https://res.cloudinary.com/dkbuneg9h/image/upload/v1492118391/Prepare-se2_q5eozu.png"/>
 					</Section>

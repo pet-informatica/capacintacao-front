@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Menu, Segment } from 'semantic-ui-react'
+import { Grid, Menu, Segment } from 'semantic-ui-react/dist/commonjs'
 
 export default class GenericMenu extends Component {
   state = { activeItem: this.props.items[0] }
