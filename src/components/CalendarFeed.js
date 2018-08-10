@@ -8,40 +8,34 @@ export default class HistoryFeed extends Component{
           <Grid columns={2} divided>
                 <Grid.Row>
                     <Grid.Column textAlign="right">
-                        <Icon name="flag checkered" size="huge" flipped='horizontally'></Icon>
+                        <Icon name="file word outline" size="huge"></Icon>
                     </Grid.Column>
                     <Grid.Column>
-                        <TimelineCard align='left' header='Início das Inscrições' meta="09/04"/>
+                        <TimelineCard align='left' header='Word' meta="01/10 - 05/10"/>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column floated='right'>
-                        <TimelineCard align='right' header='Fim das Inscrições' meta="15/08"/>
+                        <TimelineCard align='right' header='Power Point' meta="08/10 - 11/10"/>
                     </Grid.Column>
                     <Grid.Column floated='left'>
+                        <Icon name="file powerpoint outline" size="huge"></Icon>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column textAlign="right">
-                        <Icon name="pencil" size="huge" flipped='horizontally'></Icon>
+                        <Icon name="google" size="huge"></Icon>
                     </Grid.Column>
                     <Grid.Column>
-                        <TimelineCard align='left' header='Dia da Prova' meta="01/09"/>
+                        <TimelineCard align='left' header='Google Suite' meta="15/10 - 19/10"/>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column floated='right'>
-                        <TimelineCard align='right' header='Contestamento de Questões' meta="02/09 - 08/09"/>
+                        <TimelineCard align='right' header='Excel' meta="02/09 - 08/09"/>
                     </Grid.Column>
                     <Grid.Column floated='left'>
-                    </Grid.Column>
-                </Grid.Row>
-                <Grid.Row>
-                    <Grid.Column textAlign="right">
-                        <Icon name="gift" size="huge" flipped='horizontally'></Icon>
-                    </Grid.Column>
-                    <Grid.Column>
-                        <TimelineCard align='left' header='Cerimônia de Premiação' meta="21/09"/>
+                        <Icon name="file excel outline" size="huge"></Icon>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
