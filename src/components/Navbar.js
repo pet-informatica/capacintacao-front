@@ -56,9 +56,9 @@ const NavBarMobile = ({
           <Menu.Item onClick={onToggle}>
             <Icon name="sidebar" />
           </Menu.Item>
-          <Menu.Item as={Link} to="/#inscricoes">
+          {/* <Menu.Item as={Link} to="/#inscricoes">
             <Image size="tiny" src="https://res.cloudinary.com/dkbuneg9h/image/upload/v1524256984/download_olctam.svg" />
-          </Menu.Item>
+          </Menu.Item> */}
         </Menu> }
         <Segment basic>
           {children}

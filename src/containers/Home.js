@@ -42,11 +42,11 @@ export default class Home extends Component{
                         <Card.Content extra>
                             <div style={{display: "flex"}}>
                                 <Icon name='mail outline' />
-                                <p>opei@cin.ufpe.br</p>
+                                <p>petinformatica-l@cin.ufpe.br</p>
                             </div>
                             <div style={{display: "flex"}}>
                                 <Icon name='facebook' />
-                                <a href="https://www.facebook.com/opei2018/" rel="noopener noreferrer" target="_blank">página da opei</a>
+                                <a href="https://www.facebook.com/petinformatica" rel="noopener noreferrer" target="_blank">Página do PET-Informática</a>
                             </div>
                         </Card.Content>
                     </Card>
