@@ -32,7 +32,7 @@ export default class HistoryFeed extends Component{
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column floated='right'>
-                        <TimelineCard align='right' header='Excel' meta="02/09 - 08/09"/>
+                        <TimelineCard align='right' header='Excel' meta="22/10 - 26/10"/>
                     </Grid.Column>
                     <Grid.Column floated='left'>
                         <Icon name="file excel outline" size="huge"></Icon>

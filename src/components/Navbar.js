@@ -26,9 +26,9 @@ const NavBarMobile = ({
       <Menu.Item onClick={onToggle}>
         <Icon name="sidebar" />
       </Menu.Item>
-      <Menu.Item as={Link} to="/#inscricoes">
-        <Image size="tiny" src="https://res.cloudinary.com/dkbuneg9h/image/upload/v1524256984/download_olctam.svg" />
-      </Menu.Item>
+      <Menu.Item as={Link} to="/#inicio" >
+    <Image size="tiny" src={logo} />
+    </Menu.Item>
     </Menu> }
     <Sidebar
         as={Menu}
@@ -39,6 +39,7 @@ const NavBarMobile = ({
         visible={visible}
       >
         <Menu.Item as={Link} content="Início" to="/#inicio"/>
+        <Menu.Item as={Link} content='Inscrição' name='inscricao' to='/#inscricao'/> 
         <Menu.Item as={Link} content="Ementa" to="/ementa#word"/>
         <Menu.Item as={Link} content="Apostila" to="/apostila#word"/>
         {/* <Menu.Item as={Link} content="Contato" to="/#contato"/> */}

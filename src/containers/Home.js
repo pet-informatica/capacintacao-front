@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import {Card, Image, Icon} from 'semantic-ui-react/dist/commonjs';
 import CalendarFeed from '../components/CalendarFeed';
-import Carousel from '../components/Carousel';
 import Section from '../components/Section';
 import ModalityFeed from '../components/ModuleFeed';
 import Navbar from '../components/Navbar';
+import TopBanner from '../components/TopBanner';
 
 const realizacao = require('../assets/realizacao_PET.png');
 const apoio = require('../assets/apoio_CIn_UFPE.png');
@@ -14,7 +14,7 @@ export default class Home extends Component{
         return(
           <Navbar>
 			<div className="index-content">
-                <Carousel/>
+                <TopBanner/>
                 <div className="index-anchor" id="modalidades"/>
                 <Section title="MÓDULOS">
                     <ModalityFeed/>
@@ -23,13 +23,6 @@ export default class Home extends Component{
                 <Section title="CALENDÁRIO">
                     <CalendarFeed/>
                 </Section>
-                {/* <Parallax
-                    style={{marginTop: "120px"}}
-                    bgImage="https://res.cloudinary.com/dkbuneg9h/image/upload/c_crop,h_2560,w_5184,y_350/v1524298239/IMG_0922_qhxvfo.jpg"
-                    bgImageAlt=""
-                    strength={200}>
-                    <div style={{ height: '300px'}} />
-                </Parallax> */}
                 <div className="index-anchor" id="contato"/>
                 <Section title="CONTATO">
                   <Card.Group centered="true" style={{justifyContent: "center"}}>
