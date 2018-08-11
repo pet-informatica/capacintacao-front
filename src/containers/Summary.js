@@ -129,7 +129,7 @@ export default class Summary extends Component {
 					<div className="index-anchor" id="gsuite" />
 					<Section title="G Suite">
 					<div style={{textAlign: "center"}}>
-					<img src={gsuite} alt="Logo GSuite" height="151" width="288"/>
+					<img src={gsuite} alt="Logo GSuite" height="50" width="275"/>
 					</div>
 						<p className="index-sectionText">
 							<h4>Gmail</h4>
