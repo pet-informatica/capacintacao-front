@@ -1,4 +1,4 @@
-![](http://res.cloudinary.com/dkbuneg9h/image/upload/v1492117226/Prepare-se_kakyii.png)
+![](https://res.cloudinary.com/dkbuneg9h/image/upload/v1533995525/logoCapa_dk8eka.png)
 
 The project must be developed under the `dev` branch. `master` branch is used only for publishing the website on the web under production enviroment.
 
