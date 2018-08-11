@@ -13,6 +13,8 @@ import {
 
 import { HashLink as Link } from 'react-router-hash-link';
 
+const logo = require('../assets/logoCapa.svg');
+
 const NavBarMobile = ({
   children,
   onPusherClick,
@@ -70,12 +72,9 @@ const NavBarMobile = ({
 
 const NavBarDesktop = () => (
   <Menu fixed="top" inverted>
-    <Menu.Item as='a' to="/#inicio" active>
-      Início
+    <Menu.Item as={Link} to="/#inicio" >
+    <Image size="small" src={logo} />
     </Menu.Item>
-		{/* <Menu.Item as={Link} to="/#inscricoes">
-			<Image size="small" src="https://res.cloudinary.com/dkbuneg9h/image/upload/v1524256984/download_olctam.svg" />
-    </Menu.Item> */}
     <Menu.Item as={Link} content='Inscrição' name='inscricao' to='/#inscricao'/> 
     <Dropdown text='Ementa' pointing="top" className='link item'>
       <Dropdown.Menu>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Card, Icon} from 'semantic-ui-react/dist/commonjs';
-import '../css/modalityCard.css';
+import '../css/moduleCard.css';
 
-export default class ModalityCard extends Component{
+export default class ModuleCard extends Component{
     render(){
         return(
             <Card>
@@ -11,12 +11,12 @@ export default class ModalityCard extends Component{
                     <Card.Meta textAlign="center">{this.props.subHeader}</Card.Meta>
                     <Card.Description textAlign="center">{this.props.content}</Card.Description>
                 </Card.Content>
-                <Card.Content extra>
+                {/* <Card.Content extra>
                     <div className="modality-card-extra">
                         <Icon name='user' className="modality-card-icon"/>
                         <div>{this.props.meta}</div>
                     </div>
-                </Card.Content>
+                </Card.Content> */}
             </Card>
         );
     }

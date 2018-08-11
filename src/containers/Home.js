@@ -3,9 +3,11 @@ import {Card, Image, Icon} from 'semantic-ui-react/dist/commonjs';
 import CalendarFeed from '../components/CalendarFeed';
 import Carousel from '../components/Carousel';
 import Section from '../components/Section';
-import ModalityFeed from '../components/ModalityFeed';
-import { Parallax } from 'react-parallax';
+import ModalityFeed from '../components/ModuleFeed';
 import Navbar from '../components/Navbar';
+
+const realizacao = require('../assets/realizacao_PET.png');
+const apoio = require('../assets/apoio_CIn_UFPE.png');
 
 export default class Home extends Component{
     render(){
@@ -14,20 +16,20 @@ export default class Home extends Component{
 			<div className="index-content">
                 <Carousel/>
                 <div className="index-anchor" id="modalidades"/>
-                <Section title="MODALIDADES">
+                <Section title="MÓDULOS">
                     <ModalityFeed/>
                 </Section>
                 <div className="index-anchor" id="calendario"/>
                 <Section title="CALENDÁRIO">
                     <CalendarFeed/>
                 </Section>
-                <Parallax
+                {/* <Parallax
                     style={{marginTop: "120px"}}
                     bgImage="https://res.cloudinary.com/dkbuneg9h/image/upload/c_crop,h_2560,w_5184,y_350/v1524298239/IMG_0922_qhxvfo.jpg"
                     bgImageAlt=""
                     strength={200}>
                     <div style={{ height: '300px'}} />
-                </Parallax>
+                </Parallax> */}
                 <div className="index-anchor" id="contato"/>
                 <Section title="CONTATO">
                   <Card.Group centered="true" style={{justifyContent: "center"}}>
@@ -52,7 +54,10 @@ export default class Home extends Component{
                     </Card>
                   </Card.Group>
                 </Section>
-                <Image style={{marginTop:"120px"}} centered size="huge" src="http://res.cloudinary.com/dkbuneg9h/image/upload/v1528478641/opei_patrocinio_rcfmvi.png"/>
+                <div>
+                <Image style={{marginTop:"120px"}} centered size="large" src={realizacao}/>
+                <Image centered size="medium" src={apoio}/>
+                </div>
             </div>
           </Navbar>
         );
