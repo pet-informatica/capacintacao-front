@@ -4,6 +4,7 @@ import Home from './Home';
 import Summary from './Summary';
 import Footer from '../components/Footer';
 import Booklet from './Booklet';
+import Registration from './Registration';
 // import Practice from './Practice';
 // import PracticeC from './PracticeC';
 // import Spread from './Spread';
@@ -17,6 +18,7 @@ export default class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path='/' component={Home}/>
+            <Route exact path='/inscricoes' component={Registration}/>
             <Route exact path='/ementa' component={Summary}/>
             <Route exact path='/apostila' component={Booklet}/>
             {/* <Route exact path='/pratique-teorica' component={Practice}/>

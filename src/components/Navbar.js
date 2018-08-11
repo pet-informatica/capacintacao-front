@@ -39,7 +39,7 @@ const NavBarMobile = ({
         visible={visible}
       >
         <Menu.Item as={Link} content="Início" to="/#inicio"/>
-        <Menu.Item as={Link} content='Inscrição' name='inscricao' to='/#inscricao'/> 
+        <Menu.Item as={Link} content='Inscrição' name='inscricao' to='/inscricoes#inscricao'/> 
         <Menu.Item as={Link} content="Ementa" to="/ementa#word"/>
         <Menu.Item as={Link} content="Apostila" to="/apostila#word"/>
         {/* <Menu.Item as={Link} content="Contato" to="/#contato"/> */}
@@ -76,7 +76,7 @@ const NavBarDesktop = () => (
     <Menu.Item as={Link} to="/#inicio" >
     <Image size="small" src={logo} />
     </Menu.Item>
-    <Menu.Item as={Link} content='Inscrição' name='inscricao' to='/#inscricao'/> 
+    <Menu.Item as={Link} content='Inscrição' name='inscricao' to='/inscricoes#inscricao'/> 
     <Dropdown text='Ementa' pointing="top" className='link item'>
       <Dropdown.Menu>
         <Dropdown.Item as={Link} to="/ementa#word">Word</Dropdown.Item>
