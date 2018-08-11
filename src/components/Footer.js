@@ -4,7 +4,7 @@ import {Segment} from 'semantic-ui-react/dist/commonjs';
 export default class Footer extends Component{
 	render(){
 		return(
-			<Segment textAlign="center" inverted attached="top">© 2018 OPEI - Todos os direitos reservados</Segment>
+			<Segment textAlign="center" inverted attached="top">© 2018 PET - Todos os direitos reservados</Segment>
 		);
 	}
 }
