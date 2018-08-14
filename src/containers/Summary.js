@@ -20,35 +20,51 @@ export default class Summary extends Component {
 					<img src={word} alt="Logo Word" height="50" width="50"/>
 					</div>
 						<p className="index-sectionText">
-							<h4>Gmail</h4>
+							<h4>Dicionário de sinônimos</h4>
+							<h4>Recursos de autocorreção</h4>
 							<ul>
-								<li>Criação de email</li>
-								<li>Utilização do email (ler, enviar, anexar arquivos, encaminhar, deletar e restaurar emails)</li>
-								<li>Função da/s caixas (estrela e spam)</li>
-								<li>Criação de filtros</li>
+								<li>Opções de autocorreção</li>
 							</ul>
-							<h4>Calendar</h4>
+							<h4>Controlando alterações em um documento</h4>
+							<h4>Modos de exibição</h4>
 							<ul>
-								<li>Criação de eventos únicos ou recorrentes</li>
-								<li>Criação de lembretes</li>
-								<li>Organização de eventos em diferentes agendas</li>
+								<li>Estrutura de texto por tópicos</li>
+								<li>Layout de impressão</li>
 							</ul>
-							<h4>Drive</h4>
+							<h4>Aprendendo estilos</h4>
 							<ul>
-								<li>O que é e para que serve a Nuvem</li>
-								<li>Como acessar</li>
-								<li>Adicionando pastas e arquivos do computador</li>
-								<li>Organização do Drive: criação de novas pastas</li>
-								<li>Como compartilhar arquivos e visualizar arquivos compartilhados</li>
-								<li>Recursos:</li>
-								<ul>
-									<li>Documentos Google</li>
-									<li>Planilhas Google</li>
-									<li>Apresentações Google</li>
-									<li>Formulários Google</li>
-								</ul>
-
+								<li>Aplicando estilos existentes</li>
+								<li>Criando</li>
+								<li>Removendo</li>
 							</ul>
+							<h4>Definindo tabulações</h4>
+							<h4>Sumário</h4>
+							<ul>
+								<li>Criando</li>
+								<li>Alterando</li>
+								<li>Atualizando</li>
+							</ul>
+							<h4>Inserindo notas de fim e notas de rodapé</h4>
+							<h4>Criando índice de legendas</h4>
+							<h4>Criando índice remissivo</h4>
+							<h4>Criando envelopes e etiquets</h4>
+							<h4>Tabela</h4>
+							<ul>
+								<li>Inserindo tabelas, linhas e colunas</li>
+								<li>Formatação da tabela</li>
+								<li>Excluindo tabelas, linhas e colunas</li>
+								<li>Classificando os dados</li>
+								<li>Alinhamento</li>
+								<li>Propriedades</li>
+							</ul>
+							<h4>Inserindo gráficos e SmartArt</h4>
+							<h4>Mala direta</h4>
+							<ul>
+								<li>Tipo de mala direta</li>
+								<li>Criando base de dados</li>
+								<li>Criando documento de mala direta</li>
+							</ul>		
+							
 						</p>
 						{/* <Embed id="7ubYlXGk7KY" source='youtube' placeholder="https://res.cloudinary.com/dkbuneg9h/image/upload/v1492118391/Prepare-se2_q5eozu.png"/> */}
 					</Section>
