@@ -1,8 +1,8 @@
 {
-  "name": "opei",
+  "name": "capa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://opei.cin.ufpe.br",
+  "homepage": "https://pet.cin.ufpe.br/capacitacao",
   "dependencies": {
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
