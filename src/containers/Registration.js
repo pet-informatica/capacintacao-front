@@ -11,7 +11,7 @@ export default class Registration extends Component {
 				<div className="index-page">
 					<TopBanner/>
 					<div className="index-anchor" id="word"/>
-					<Section title="INSCRIÇÃO WORD">
+					<Section title="WORD">
 						<div style={{textAlign: "center"}}>
 							<div>
 								<div className="index-iframe">
@@ -22,7 +22,7 @@ export default class Registration extends Component {
 						</div>
 					</Section>
 					<div className="index-anchor" id="ppt"/>
-					<Section title="INSCRIÇÃO POWER POINT">
+					<Section title="POWER POINT">
 						<div style={{textAlign: "center"}}>
 							<div>
 								<div className="index-iframe">
@@ -32,7 +32,7 @@ export default class Registration extends Component {
 							</div>
 						</div>
 					</Section><div className="index-anchor" id="excel"/>
-					<Section title="INSCRIÇÃO EXCEL">
+					<Section title="EXCEL">
 						<div style={{textAlign: "center"}}>
 							<div>
 								<div className="index-iframe">
@@ -43,7 +43,7 @@ export default class Registration extends Component {
 						</div>
 					</Section>
 					<div className="index-anchor" id="gsuite"/>
-					<Section title="INSCRIÇÃO G SUITE">
+					<Section title="G SUITE">
 						<div style={{textAlign: "center"}}>
 							<div>
 								<div className="index-iframe">

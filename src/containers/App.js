@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import Summary from './Summary';
 import Footer from '../components/Footer';
@@ -15,7 +15,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
+        <HashRouter>
           <Switch>
             <Route exact path='/' component={Home}/>
             <Route exact path='/inscricoes' component={Registration}/>
@@ -27,7 +27,7 @@ export default class App extends Component {
             <Route exact path='/faq' component={FAQ}/> */}
             <Route exact path='/ads' component={Ads}/>
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
         <Footer/>
       </div>
     );
