@@ -10,16 +10,44 @@ export default class Registration extends Component {
 			<Navbar>
 				<div className="index-page">
 					<TopBanner/>
-					<div className="index-anchor" id="inscricao"/>
-					<Section title="INSCRIÇÃO">
+					<div className="index-anchor" id="word"/>
+					<Section title="INSCRIÇÃO WORD">
 						<div style={{textAlign: "center"}}>
 							<div>
-								<div className="registration-menuContainer">
-									<p className="index-sectionText" style={{marginBottom: "40px"}}>Inscrições para o CapaCIntação de 2018!</p>
-									{/* <Button secondary href="https://drive.google.com/uc?id=1xDfe5g7Vhcj4jXPJY-QKRMIqgDW_X2P5&export=download">Baixar Cartaz!</Button> */}
-								</div>
 								<div className="index-iframe">
-								<iframe title="spread" src="https://docs.google.com/forms/d/e/1FAIpQLSdlqjfDXjbXt6FtHuiBwSgLTpPVqMFg2Uchp100OcukihhHtg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+								<iframe title="spread" src="https://goo.gl/forms/JKery7lu5pUtgOLm1" width="700" height="520" frameborder="100" marginheight="0" marginwidth="0">Carregando…</iframe>
+									{/* <iframe title="spread" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/1xDfe5g7Vhcj4jXPJY-QKRMIqgDW_X2P5/preview" width="640" height="480"></iframe> */}
+								</div>
+							</div>
+						</div>
+					</Section>
+					<div className="index-anchor" id="ppt"/>
+					<Section title="INSCRIÇÃO POWER POINT">
+						<div style={{textAlign: "center"}}>
+							<div>
+								<div className="index-iframe">
+								<iframe title="spread" src="https://goo.gl/forms/drPTHuv0BFk9K6Dd2" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+									{/* <iframe title="spread" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/1xDfe5g7Vhcj4jXPJY-QKRMIqgDW_X2P5/preview" width="640" height="480"></iframe> */}
+								</div>
+							</div>
+						</div>
+					</Section><div className="index-anchor" id="excel"/>
+					<Section title="INSCRIÇÃO EXCEL">
+						<div style={{textAlign: "center"}}>
+							<div>
+								<div className="index-iframe">
+								<iframe title="spread" src="https://goo.gl/forms/T8w3Xi8zZqTBZkDS2" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+									{/* <iframe title="spread" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/1xDfe5g7Vhcj4jXPJY-QKRMIqgDW_X2P5/preview" width="640" height="480"></iframe> */}
+								</div>
+							</div>
+						</div>
+					</Section>
+					<div className="index-anchor" id="gsuite"/>
+					<Section title="INSCRIÇÃO G SUITE">
+						<div style={{textAlign: "center"}}>
+							<div>
+								<div className="index-iframe">
+								<iframe title="spread" src="https://goo.gl/forms/LDOUQE1XYJlgmqpy1" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
 									{/* <iframe title="spread" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/1xDfe5g7Vhcj4jXPJY-QKRMIqgDW_X2P5/preview" width="640" height="480"></iframe> */}
 								</div>
 							</div>
