@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Button} from 'semantic-ui-react/dist/commonjs';
 import Section from '../components/Section';
 import Navbar from '../components/Navbar';
 import TopBanner from '../components/TopBanner';

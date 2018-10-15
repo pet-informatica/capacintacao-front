@@ -15,9 +15,7 @@ export default class Booklet extends Component {
 				<div className="index-page">
 					<TopBanner/>
 					<div className="index-anchor" id="word" />
-					<Section title="Em Breve!">
-					</Section>
-					{/*<Section title="Word">	
+					<Section title="Word">	
 						<div style={{textAlign: "center"}}>
 							<div>
 								<img src={word} alt="Logo Word" height="50" width="50"/>
@@ -60,7 +58,6 @@ export default class Booklet extends Component {
 							</div>
 						</div>
 					</Section>
-					*/}
 				</div>
 				
 			</Navbar>

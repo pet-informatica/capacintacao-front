@@ -39,9 +39,9 @@ const NavBarMobile = ({
         visible={visible}
       >
         <Menu.Item as={Link} content="Início" to="/#inicio"/>
-        <Menu.Item as={Link} content='Inscrição' name='inscricao' to='/inscricoes#inscricao'/> 
+        {/* <Menu.Item as={Link} content='Inscrição' name='inscricao' to='/inscricoes#inscricao'/>  */}
         <Menu.Item as={Link} content="Ementa" to="/ementa#word"/>
-        {/*<Menu.Item as={Link} content="Apostila" to="/apostila#word"/>*/}
+        <Menu.Item as={Link} content="Apostila" to="/apostila#word"/>
         {/* <Menu.Item as={Link} content="Contato" to="/#contato"/> */}
         {/* <Menu.Item as={Link} content="Regulamento" to="/regulamento#regulamento"/>
         <Menu.Item as={Link} content="Pratique - Teórica" to="/pratique-teorica#prova-teorica"/>
@@ -76,14 +76,14 @@ const NavBarDesktop = () => (
     <Menu.Item as={Link} to="/#inicio" >
     <Image size="small" src={logo} />
     </Menu.Item>
-    <Dropdown text='Inscrição' pointing="top" className='link item'>
+    {/* <Dropdown text='Inscrição' pointing="top" className='link item'>
       <Dropdown.Menu>
         <Dropdown.Item as={Link} to="/inscricoes#word">Word</Dropdown.Item>
         <Dropdown.Item as={Link} to="/inscricoes#ppt">PowerPoint</Dropdown.Item>
         <Dropdown.Item as={Link} to="/inscricoes#excel">Excel</Dropdown.Item>
         <Dropdown.Item as={Link} to="/inscricoes#gsuite">G Suite</Dropdown.Item>
       </Dropdown.Menu>
-    </Dropdown>
+    </Dropdown> */}
     <Dropdown text='Ementa' pointing="top" className='link item'>
       <Dropdown.Menu>
         <Dropdown.Item as={Link} to="/ementa#word">Word</Dropdown.Item>
@@ -92,7 +92,7 @@ const NavBarDesktop = () => (
         <Dropdown.Item as={Link} to="/ementa#gsuite">G Suite</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
-    {/*<Dropdown text='Apostila' pointing="top" className='link item'>
+    <Dropdown text='Apostila' pointing="top" className='link item'>
       <Dropdown.Menu>
         <Dropdown.Item as={Link} to="/apostila#word">Word</Dropdown.Item>
         <Dropdown.Item as={Link} to="/apostila#ppt">PowerPoint</Dropdown.Item>
@@ -100,7 +100,6 @@ const NavBarDesktop = () => (
         <Dropdown.Item as={Link} to="/apostila#gsuite">G Suite</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
-    */}
     {/* <Menu.Item as={Link} content='Regulamento' name='regulamento' to='/regulamento#regulamento'/>
     <Dropdown text='Pratique' pointing="top" className='link item'>
       <Dropdown.Menu>
