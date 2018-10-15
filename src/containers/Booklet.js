@@ -20,7 +20,7 @@ export default class Booklet extends Component {
 							<div>
 								<img src={word} alt="Logo Word" height="50" width="50"/>
 								<div className="index-iframe" style={{height: "600px"}}>
-									<iframe title="apostWord" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/17K1XJl5JzBYL2nIQwyaJznCilqRci4In/preview" width="640" height="480"></iframe>
+									<iframe title="apostWord" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/0BwmoDrJMQ2D8T2RyWDRwOUZaU0U/preview" width="640" height="480"></iframe>
 								</div>
 							</div>
 						</div>
@@ -31,7 +31,7 @@ export default class Booklet extends Component {
 							<div>
 								<img src={ppt} alt="Logo PowerPoint" height="50" width="50"/>
 								<div className="index-iframe" style={{height: "600px"}}>
-									<iframe title="apostPpt" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/17K1XJl5JzBYL2nIQwyaJznCilqRci4In/preview" width="640" height="480"></iframe>
+									<iframe title="apostPpt" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/0B2D6K3x1RqyOcFlzZFE0ckNPRlk/preview" width="640" height="480"></iframe>
 								</div>
 							</div>
 						</div>
@@ -42,7 +42,7 @@ export default class Booklet extends Component {
 							<div>
 								<img src={excel} alt="Logo Excel" height="50" width="50"/>
 								<div className="index-iframe" style={{height: "600px"}}>
-									<iframe title="apostExcel" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/17K1XJl5JzBYL2nIQwyaJznCilqRci4In/preview" width="640" height="480"></iframe>
+									<iframe title="apostExcel" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/1S9CZcKRVPJOMJ_03ygQ7tLHvAaZ-iugX/preview" width="640" height="480"></iframe>
 								</div>
 							</div>
 						</div>
