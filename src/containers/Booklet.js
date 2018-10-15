@@ -53,7 +53,7 @@ export default class Booklet extends Component {
 							<div>
 								<img src={gsuite} alt="Logo GSuite" height="50" width="275"/>
 								<div className="index-iframe" style={{height: "600px"}}>
-									<iframe title="apostGSuite" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/17K1XJl5JzBYL2nIQwyaJznCilqRci4In/preview" width="640" height="480"></iframe>
+									<iframe title="apostGSuite" style={{border: "none", height: "600px"}} src="https://drive.google.com/file/d/1JuxndicRchunboTFsQInkUVoi28Zfhph/preview" width="640" height="480"></iframe>
 								</div>
 							</div>
 						</div>
